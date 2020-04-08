@@ -9,6 +9,6 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 display_board(board)
 input_to_index(user_input)
-move(board,user_input, "X")
+move("anything",1, "*(any args)")
 
 # Code your CLI Here
