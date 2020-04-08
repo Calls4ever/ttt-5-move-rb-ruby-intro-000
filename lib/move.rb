@@ -18,7 +18,7 @@ user_input=user_input.to_i-1
 end
 
 def move(board, user_input, "X")
-  board[user_input] = value
+  board[user_input] = "X"
   display_board
 end
 # code your input_to_index and move method here!
