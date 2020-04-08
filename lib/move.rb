@@ -1,6 +1,6 @@
 
-def move(board, input, value)
-  board[input]=value
+def move(board, input, val="X")
+  board[input]=val
   display_board
 end
 
