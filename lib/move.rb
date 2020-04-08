@@ -17,7 +17,7 @@ user_input=user_input.to_i-1
 
 end
 
-def move(board, user_input, value="X")
+def move(board, user_input=1, value="X")
   board[user_input] = value
   display_board
 end
