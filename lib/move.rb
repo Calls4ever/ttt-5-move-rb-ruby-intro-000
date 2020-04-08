@@ -7,15 +7,4 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-def input_to_index(input)
-  input.to_i
-  input--
-end
-
-def update_array_at_with(board, input, pos)
-  pos="X"
-  board[input]=pos
-  display_board(board)
-end
-
 # code your input_to_index and move method here!
